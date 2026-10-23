@@ -78,7 +78,7 @@ const clean = (s) => (s || "")
   .replace(/\p{Extended_Pictographic}/gu, "")
   .replace(/[\u{1F1E6}-\u{1F1FF}]/gu, "")
   .replace(/[\u{1F3FB}-\u{1F3FF}]/gu, "")
-  .replace(/[‍️⃣]/g, "")
+  .replace(/[\u200D\uFE0F\u20E3]/g, "")
   .replace(/\s+/g, " ")
   .trim()
 ```
