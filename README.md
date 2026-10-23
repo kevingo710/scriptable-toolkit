@@ -19,3 +19,9 @@ Genera un resumen matutino en texto (clima, calidad del aire, eventos del calend
 3. En Atajos: acción **Ejecutar script** → *Resumen matutino*, y después **Leer texto** con la salida.
 
 Si se ejecuta desde la app de Scriptable, lo lee y lo muestra directamente.
+
+## Skills
+
+### `skills/scriptable-widgets/SKILL.md`
+
+Skill para Claude con buenas prácticas para crear y mejorar widgets y scripts de Scriptable: layout por tamaño, modo oscuro, caché, pantalla de bloqueo y texto para voz.
