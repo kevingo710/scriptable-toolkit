@@ -1,6 +1,6 @@
 ---
 name: scriptable-widgets
-description: Crear, mejorar o depurar scripts y widgets de Scriptable (iOS) — layout por tamaño de widget, modo oscuro, caché, red, pantalla de bloqueo, Atajos y texto para voz.
+description: Crear, mejorar o depurar scripts y widgets de Scriptable (iOS): layout por tamaño de widget, modo oscuro, caché, red, pantalla de bloqueo, Atajos y texto para voz.
 ---
 
 # Widgets y scripts de Scriptable

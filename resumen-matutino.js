@@ -5,16 +5,15 @@
 // ============================================================
 
 const CONFIG = {
-  name: "",                     // Tu nombre para el saludo, ej. "Ana" (vacío = sin nombre)
-  // Ubicación de respaldo si el GPS falla (ej. Madrid):
-  fallbackLocation: { lat: 40.42, lon: -3.70, city: "Madrid" },
-  excludedCalendars: [],        // Calendarios a ignorar, ej. ["Festivos", "Trabajo antiguo"]
-  maxEvents: 6,             // Máximo de eventos que se leen con detalle
-  maxReminders: 6,          // Máximo de tareas que se leen
+  name: "",                  // Tu nombre para el saludo, ej. "Ana" (vacío = sin nombre)
+  fallbackLocation: { lat: 40.42, lon: -3.70, city: "Madrid" }, // Si el GPS falla
+  excludedCalendars: [],     // Calendarios a ignorar, ej. ["Festivos", "Trabajo antiguo"]
+  maxEvents: 6,              // Máximo de eventos que se leen con detalle
+  maxReminders: 6,           // Máximo de tareas que se leen
   includeAirQuality: true,
-  includeTomorrow: true,    // Avance del primer evento de mañana
-  includeQuote: true,       // Frase para arrancar el día
-  batteryWarning: 0.3,      // Avisa si la batería está por debajo (30 %)
+  includeTomorrow: true,     // Avance del primer evento de mañana
+  includeQuote: true,        // Frase para arrancar el día
+  batteryWarning: 0.3,       // Avisa si la batería está por debajo (30 %)
 }
 
 // ---------- Utilidades ----------
